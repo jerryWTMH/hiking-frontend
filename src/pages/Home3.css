@@ -1,0 +1,182 @@
+.container1{
+    width: 411px;
+    height: 768px;
+    border: solid 1px black;
+}
+
+.navBar{
+    width: 411px;
+    height: 56px;
+    background-color: #375754;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.navBar div:nth-child(1){
+    position:absolute;
+    top: 17px;
+    bottom: 19px;
+    left: 16px;
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+   }
+
+.navBar div:nth-child(2){
+    position:absolute;
+    top: 17px;
+    bottom: 14px;
+    left: 72px;
+    right: 254px;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navBar div:nth-child(3){
+    position:absolute;
+    top: 16px;
+    bottom: 16px;
+    left: 371px;
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+}
+/***********************************************************/
+.container2{
+    width: 411px;
+    height: 230px;
+    background-color: orange;
+    position: relative;
+}
+
+.contextBlock{
+  width: 259px;
+  height: 230px;
+  /* margin: 56px 137px 0 0z
+  padding: 40px 16px 70px; */
+  background-color: #232323;
+}
+
+#text1{
+    width: 158px;
+    height: 36px;
+    position: absolute;
+    top: 40px;
+    right: 85px;
+    bottom: 154px;
+    left: 16px;
+    font-family: NotoSansCJKtc;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.64;
+    letter-spacing: 0.46px;
+    color: white;
+}
+
+#text2{
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    top: 84px;
+    right: 16px;
+    bottom: 122px;
+    left: 16px;
+    font-family: NotoSansCJKtc;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #C3C3C3;
+}
+
+#button1{
+    position:absolute;
+    top: 135px;
+    right: 173px;
+    bottom: 74px;
+    left: 28px;
+    width: 98px;
+    height: 28px;
+    /* margin: 24px 129px 0 0;
+    padding: 3px 11px 4px 12px; */
+    border-radius: 14px;
+    background-color: #00d04c;
+
+    font-family: NotoSansCJKtc;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color:white;
+}
+
+.peopleImage{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 152px;
+    height: 230px;
+    
+}
+
+.greyRectangle{
+  width: 411px;
+  height: 16px;
+  /* margin: 230px 0 0; */
+  background-color: grey;
+  clear:both;
+}
+
+.whiteRectangle{
+    width: 411px;
+    height: 112px;
+    /* margin: 16px 0 0;  */
+    /* padding: 8px 0 8px 16px;  */
+    box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color:blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quickSearch{
+    width: 72px;
+    height: 96px;
+    margin: 8px 0px 8px 16px; /*這邊可能需要指定nth margin!!!*/
+    /* padding: 12px 12px 8px; */
+    background-color: green;
+    border: solid 1px black;
+}
+
+.recommendationText{
+    width: 411px;
+    height: 76px;
+    background-color: purple;
+}
+
+.recommendation{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.recommendationBlock{
+    width: 174px;
+    height: 96px;
+    margin: 0px 0px 0px 16px;
+    background-color: yellow;
+}
+
+.tab4{ 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tab{
+    width: 102.25px; /*這邊四個加起來為412，超過411了!*/
+    height: 56px;
+    background-color: pink;
+    margin: 94px 0px 0px 0px;
+}
