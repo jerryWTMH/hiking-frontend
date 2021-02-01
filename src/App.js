@@ -4,8 +4,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home.js";
-import Register0 from "./pages/Register0";
-import Register1 from "./pages/Register1";
+
+import Register0form from "./pages/Register0-form";
+import Register1form from "./pages/Register1-form";
+
 
 function App() {
   return (
@@ -16,10 +18,10 @@ function App() {
             <Home />
           </Route>
           <Route path="/register">
-            <Register0 />
+            <Register0form />
           </Route>
           <Route path="/register1">
-            <Register1 />
+            <Register1form />
           </Route>
         </Switch>
       </div>
